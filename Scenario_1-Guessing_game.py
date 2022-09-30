@@ -1,9 +1,11 @@
+#import random module
 import random
-
+#generate random number
 my_number = random.randrange(1, 10)
-
+#initialize variables
 my_guess = 0
 guess_count = 0
+#use a loops to check the various conditions
 while my_guess!= my_number and my_guess != "exit":
     my_guess = input("Please enter number from 1 to 10: ")
     if my_guess == "exit":
